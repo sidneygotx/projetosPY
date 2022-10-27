@@ -5,7 +5,7 @@ tupla = list(enumerate(emails))
 
 for chave in range(o,len(tupla)):
     print("email: ", tupla[chave][1])
-    usuario[tupla[chave]]=[input("digite o nome"), input("digite o nível")]
+    usuario[tupla[chave]]=[input("nome"), input("digite o nível")]
 
 for chave, dado in usuario.items():
     print("usuario: ", chave[0])
